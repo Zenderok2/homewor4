@@ -15,16 +15,15 @@ main {
     padding: 20px;
 }
 
+
 /* Шапка */
 header {
     background-color: #0056b3;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .logo img {
     border-radius: 50%;
@@ -59,12 +58,11 @@ nav ul li a:hover {
 
 /* Стили таблицы */
 table {
-    width: 100%;
-    border-collapse: collapse;
     margin-top: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
+
 
 th,
 td {
